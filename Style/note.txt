@@ -1,0 +1,11 @@
+<!-- Section catégorie -->
+                        <!-- <option value="agroalimentaire"></option>
+                        <option value="agroalimentaire">agroalimentaire</option>
+                        <option value="agroalimentaire">agroalimentaire</option>
+                        <option value="agroalimentaire">agroalimentaire</option>
+                        <option value="agroalimentaire">agroalimentaire</option>
+                        <option value="agroalimentaire">agroalimentaire</option>
+                        <option value="agroalimentaire">agroalimentaire</option>
+                        <option value="agroalimentaire">agroalimentaire</option>
+                        <option value="agroalimentaire">agroalimentaire</option>
+                        <option value="agroalimentaire">agroalimentaire</option> -->

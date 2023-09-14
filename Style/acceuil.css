@@ -1,0 +1,602 @@
+:root{
+    --couleur-primaire:#0989FF ;
+    --couleur-primaire1:#fff ;
+    --couleur-primaire2:#000;
+    --couleur-bg:#f4f7fc;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+/* Sction headtop */
+
+.headtop{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.headtop .logo p{
+    padding-top: 5px;
+}
+
+.headtop .logo a{
+    color: var(--couleur-primaire2);
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.headtop .logo a:hover{
+    color: var(--couleur-primaire);
+}
+
+.headtop .icones{
+    display: flex;
+    margin-left: 3px;
+}
+
+.headtop .icones p{
+    color: var(--couleur-primaire2);
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.headtop .icones .bar{
+    border-right: 2px solid black;
+}
+
+.headtop .icones a:hover{
+    color: var(--couleur-primaire);
+}
+
+.headtop .icones a{
+    color: var(--couleur-primaire2);
+    text-decoration: none;
+}
+.headtop .icon{
+    display: flex;
+}
+.search{
+    margin-right: 40px;
+}
+.search .search-icon{
+    position: relative;
+    color: var(--couleur-primaire2);
+    left: -40px;
+    top: -1px;
+}
+
+.search .isearch{
+    width: 400px;
+    padding: 2%;
+}
+
+.headtop .icones p{
+    margin-right: 15px;
+}
+.headtop .icones .bar{
+    padding-right: 10px;
+}
+
+
+/* Section headtop nav menu */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: var(--couleur-primaire);
+}
+
+.nav .menu ul{
+    display: flex;
+    padding-left: 0;
+}
+
+.nav .menu ul li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.nav .menu ul li select{
+    border: none;
+    background-color: var(--couleur-primaire);
+    color: var(--couleur-primaire1);
+}
+
+.menu ul li span{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav .menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+.nav .menu ul li a:hover{
+    color: rgb(10, 10, 106);
+}
+.nav .menu ul li span{
+    color: white;
+}
+.ePerso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--couleur-primaire2);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.ePerso li{
+    list-style-type: none;
+}
+.ePerso li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Section Main */
+
+/* section Bg */
+.bg img{
+    width: 100%;
+    height: 600px;
+}
+.bgContainer{
+    position: relative;
+    top: -300px;
+}
+.chevrons p{
+    background-color: white;
+    width: 20px;
+    height: 30px;
+    padding: 5px;
+}
+
+.titreCat p{
+    font-weight: bold;
+}
+
+/* Section Categories */
+.categories{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.categories .container{
+    width: 70%;
+    margin: 0 auto;
+}
+.categories .titreCat{
+    display: flex;
+}
+.categories .titreCat p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    text-decoration: underline;
+}
+.categories .cartes{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.categories .carte{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: var(--couleur-primaire);
+    border-radius: 10%;
+}
+.categories .carte img{
+    width: 50%;
+    height: 100px;
+}
+.categories .carte p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Top model */
+.topModel{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(220, 217, 217, 0.231);
+}
+.topModel .container{
+    width: 70%;
+    margin: 0 auto;
+}
+.topModel .titreCat{
+    display: flex;
+    margin-bottom: 3%;
+}
+.topModel .titreCat p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    text-decoration: underline;
+}
+.topModel .cartes{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.topModel .carte{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--couleur-primaire);
+    padding-bottom: 2%;
+}
+.topModel .carte img{
+    width: 50%;
+    height: 100px;
+}
+.topModel .carte h2,p,span{
+    text-align: left;
+    font-size: 12px;
+    color: white;
+}
+.topModel .details{
+    display: flex;
+    justify-content: space-between;
+}
+.topModel .detail .bare{
+    text-decoration: line-through;
+}
+.topModel .detail .gras{
+    font-weight: bold;
+    color: var(--couleur-primaire2);
+}
+.topModel .detail .btn{
+    border: 2px solid black;
+    padding: 5px;
+    color: var(--couleur-primaire2);
+}
+.topModel .descript{
+    background-color: var(--couleur-primaire2);
+    padding: 2%;
+    width: 55%;
+    font-weight: bold;
+    text-align: center;
+}
+.Vplus{
+    color: var(--couleur-primaire2);
+}
+.topModel .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.topModel img{
+    width: 70%;
+    height: 150px;
+}
+
+.reduction{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Meilleurs Ventes */
+.MeilVentes{
+    background-color: #e3eaf7;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.promo .img{
+    width: 50%;
+}
+
+.promo img{
+    width: 100%;
+    height: 100%;
+}
+.promo .promotion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: var(--couleur-primaire);
+}
+.promotion p:nth-child(1){
+    font-weight: bold;
+    color: var(--couleur-primaire1);;
+    font-size: 50px;
+}
+.promotion span{
+    color: var(--couleur-primaire1);
+    font-size: 20px;
+}
+.promotion .pm{
+    margin-right: 8%;
+}
+.promotion button{
+    padding: 15px;
+    background: var(--couleur-primaire1);
+}
+
+.promotion button a{
+    color: var(--couleur-primaire2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Clients */
+
+.Clients{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Clients .container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Clients .titreCat{
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.Clients .titreCat p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    text-decoration: underline;
+}
+
+.Clients .cartes{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Clients .carte{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--couleur-primaire);
+    padding-bottom: 2%;
+}
+
+.Clients .carte .imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Clients .carte img{
+    width: 50%;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.Clients .carte .imgs p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Clients .carte .imgs .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clients .carte .imgs button{
+    padding: 5px 20px;
+    background: var(--couleur-primaire1);
+    border-radius: 15px;
+    font-weight: 700;
+    color: var(--couleur-primaire2);
+}
+
+.Clients .cartes .carte .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Clients .cartes .carte .icons .icon{
+    margin: 10px;
+}
+
+.Clients .cartes .carte .icons .icon i{
+    font-size: 18px;
+}
+
+.Clients .cartes .carte .btnAcht{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clients .cartes .carte .acheter{
+    padding: 10px 30px;
+    background: var(--couleur-primaire2);
+    color: var(--couleur-primaire1);
+    font-weight: bold;
+    border: none;
+}
+
+
+/* Footer */
+.footer{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: var(--couleur-primaire);
+}
+
+.footerContainer{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .foot{
+    width: 18%;
+}
+
+.footer .foot .headFoot{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--couleur-primaire1);
+    margin-bottom: 30px;
+}
+
+.footer .foot .headFoot .icons{
+    display: flex;
+}
+
+.footer .foot .icons i{
+    font-size: 20px;
+    color: var(--couleur-primaire1);
+    margin-right: 10px;
+}
+
+.footer .foot .headFootP{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .foot .newslt{
+    display: flex;
+}
+
+.footer .foot .newslt input{
+    padding: 12px;
+}
+
+.footer .foot .newslt button{
+    background: var(--couleur-primaire2);
+    color: var(--couleur-primaire1);
+    font-weight: bold;
+    border: none;
+}
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 900px) {
+    /* header */
+    .topheader{
+        display: none;
+    }
+
+    /* Main */
+
+    /* Section Bg */
+    .bg img{
+        height: 400px;
+    }
+
+    /* Section Categories */
+    .categories .cartes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .categories .cartes .carte{
+       width: 100%;
+       border-radius: 10px;
+       margin-bottom: 4%;
+    }
+
+    /* Section Top models */
+
+    .topModel .cartes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .topModel .carte{
+        width: 80%;
+        border-radius: 10px;
+        margin-bottom: 4%;
+        padding: 50px;
+    }
+
+    /* Section Reduction */
+    .reduction .promo{
+        flex-direction: column;
+    }
+
+    .reduction .promo .img{
+        width: 100%;
+    }
+
+    .reduction .promo .promotion{
+        width: 100%;
+    }
+
+    .MeilVentes .promo{
+        flex-direction: column;
+    }
+
+    .MeilVentes .promo .img{
+        width: 100%;
+    }
+
+    .MeilVentes .promo .promotion{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .MeilVentes .promo .promotion .pm{
+        padding: 30px;
+    }
+
+    /* Sections Clients */
+    
+    .Clients .cartes{
+        flex-direction: column;
+    }
+
+    .Clients .cartes .carte{
+        width: 90%;
+        margin-bottom: 4%;
+        padding: 20px;
+    }
+
+    /* Footer */
+    .footer .footerContainer{
+        flex-direction: column;
+    }
+
+    .footer .footerContainer .foot{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+}
+
